@@ -1,0 +1,324 @@
+/*This is the comment
+*/
+
+
+
+body{
+    margin: 0px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: rgb(225, 169, 0);
+        
+}
+
+.border{
+    display: flex;
+    min-height: 15vh;
+    background-color: #6d1b1d;
+    border: 2px solid rgb(122, 96, 2);
+    width: 99.8%;
+    align-items: center;
+    /*background-repeat: no-repeat;*/
+}
+
+
+.upper{
+    flex-direction: row-reverse;
+}
+
+
+.bottom{
+
+}
+
+
+.anthem {
+    color: rgb(186, 196, 196);
+    display: flex;
+    background-color: rgb(99, 37, 37);
+    border: 1px solid black;
+    width: 15%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    height:auto;
+    justify-content: center;
+    padding: 0.5%
+}
+
+.left{
+    margin-left: 2%;
+}
+
+.right{
+    margin-right: 2%;
+}
+
+
+
+
+.container{
+    display: grid;
+    grid-template-areas:
+        "second third fourth fifth"
+        "second third fourth fifth"
+        "sixth sixth fourth fifth";
+        
+    /*grid-template-rows: 2fr 2fr 2fr 2fr;*/
+    grid-template-columns: repeat(4, 1fr);
+    background-image: url(land_back_img.jpg);
+
+
+    grid-column-gap: 7vw;
+    height: 70vh;
+}
+
+
+
+
+.block{
+    background-color: rgb(99, 37, 37);
+    border: 2px solid rgb(122, 96, 2);
+    border-radius: 4px;
+    height: 50vh;
+    text-align: center;
+}
+
+
+#second{
+    display: grid;
+    grid-area: second;
+    height: 44.5vh;
+    place-content: center;
+}
+
+
+#third{
+    display: grid;
+    grid-area: third;
+    height: 44.5vh;
+    place-items: center;
+}
+
+
+#fourth{
+    grid-area: fourth;
+    height: 69.5vh;
+}
+
+
+#fifth{
+    grid-area: fifth;
+    height: 69.5vh;
+}
+
+
+#sixth{
+    display: grid;
+    grid-area: sixth;
+    height: 24.5vh;
+    place-items: center;
+}
+
+
+
+.menu{
+    margin: 15%;
+    display: grid;
+    height: 45vh;
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 1.5vw;
+    justify-content: center;
+}
+
+
+.Page{
+    display: grid;
+    width: 14vw;
+    max-height: 9vh;
+    background-color: rgb(226, 92, 43);
+    border-radius: 7px;
+    font-size:x-large;
+    place-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(212, 212, 183);
+}
+
+
+
+.Icon{
+    width: 6vw;
+    height: 14vh;
+    display: flex;
+}
+
+.above{
+    margin-right: 73%;
+}
+
+.below{
+    margin-left: 73%;
+}
+
+
+.Paragraph{
+    font-size:95%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(186, 196, 196);
+}
+
+.header{
+    font-size: x-large;
+    margin: 0%;
+}
+
+
+
+.link:link{
+    color: greenyellow
+}
+
+.link:visited{
+    color:blueviolet
+}
+
+
+.Cover{
+    height: 42vh;
+    width: 16vw;
+}
+
+
+.SuperGiant{
+    height: 15vh;
+    width: 45vw;
+}
+
+.Olympians{
+    list-style-image: none;
+}
+
+
+.Dot{
+    padding: 0.3%;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
+
+.Ares{
+    background-image: url('images/Ares_logo.png');
+}
+
+.Zeus{
+    background-image: url('images/Zeus_logo.png');
+}
+
+.Poseidon{
+    background-image: url('images/Poseidon_logo.png');
+}
+
+.Athena{
+    background-image: url('images/Athena_logo.png');
+}
+
+.Aphrodite{
+    background-image: url('images/Aphrodite_logo.png');
+}
+
+.Dyonises{
+    background-image: url('images/Dyonises_logo.png');
+}
+
+.Artemis{
+    background-image: url('images/Artemis_logo.png');
+}
+
+.Hermes{
+    background-image: url('images/Hermes_logo.png');
+}
+
+.Demeter{
+    background-image: url('images/Demeter_icon.png');
+}
+
+.text{
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(172, 188, 201);
+}
+
+.text:hover{
+    color: yellow;
+}
+
+.God_Image{
+    height: 50vh;
+    width: 17vw;
+    position: absolute;
+}
+
+.Zagreus{
+    height: 35vh;
+    width: 28vw;
+}
+
+.god_link{
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(172, 188, 201);
+}
+
+.god_link:hover{
+    color: yellow;
+}
+
+.Hades{
+    height: 45vh;
+    width: 17vw;
+}
+
+.Video{
+    height: 25vh;
+    width: 20vw;
+}
+
+.Platinum{
+    height: 41vh;
+    width: 11vw;
+}
+
+.Skelly{
+    height: 45vh;
+    width: 17vw;
+    position: absolute;
+}
+
+.Awards{
+    height: 25vh;
+}
+
+.game_link{
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(172, 188, 201);
+}
+
+.game_link:hover{
+    color: rgb(15, 203, 15);
+}
+
+
+.Bastion{
+    height: 44vh;
+    width: 17vw;
+    position: relative;
+}
+
+
